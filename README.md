@@ -36,6 +36,8 @@ Section divider with a bold colored bar.
 {% banner "Section 1: Getting Started" %}
 ```
 
+![Banner](screenshots/00-banner.png)
+
 ### Cards
 
 Grid of cards with colored headers. Great for comparing concepts side by side.
@@ -55,6 +57,8 @@ Another card's content.
 - First argument: number of columns (1–4)
 - Optional last argument: font size in px (e.g. `{% cards 2 15 %}`)
 
+![Cards](screenshots/01-cards.png)
+
 ### Accent Cards
 
 Cards with a colored left border. Perfect for highlighting key points.
@@ -70,6 +74,8 @@ Cards with a colored left border. Perfect for highlighting key points.
 
 - First argument: number of columns (1–4)
 - Optional last argument: font size in px
+
+![Accent Cards](screenshots/02-accent-cards.png)
 
 ### Compare
 
@@ -91,6 +97,8 @@ This one is **recommended**.
 - `recommended` flag: thicker border for emphasis
 - Optional font size: `{% compare 15 %}`
 
+![Compare](screenshots/03-compare.png)
+
 ### Alert
 
 Info, warning, or tip box.
@@ -105,6 +113,8 @@ Info, warning, or tip box.
 - Use `|` to separate title and body (optional — omit for no title)
 - Optional font size: `{% alert warning 17 %}`
 
+![Alert](screenshots/04-alert.png)
+
 ### Quotes
 
 A collection of styled quotes with colored left borders.
@@ -115,6 +125,8 @@ A collection of styled quotes with colored left borders.
 {% dcquote "Source 2" %}Another quote{% enddcquote %}
 {% endquotes %}
 ```
+
+![Quotes](screenshots/05-quotes.png)
 
 ### Mini Cards
 
@@ -127,6 +139,8 @@ Compact cards in a 3-column grid. Good for listing short items.
 {% mini "Item C" %}Short description{% endmini %}
 {% endminicards %}
 ```
+
+![Mini Cards](screenshots/06-mini-cards.png)
 
 ### Flow
 
@@ -143,6 +157,9 @@ Simple horizontal flow diagram with arrow connectors.
 ```markdown
 {% flow "Request" "*Process" "Response" | Data flow overview %}
 ```
+
+![Flow](screenshots/07-flow-1.png)
+![Flow](screenshots/07-flow-2.png)
 
 ## Font Size Parameter
 
@@ -193,10 +210,6 @@ colorway: fiery-ocean
 ## Responsive
 
 All grid layouts collapse to single-column on screens narrower than 768px. Flow diagrams switch to vertical layout.
-
-## Screenshots
-
-<!-- TODO: Add rendered screenshots here -->
 
 ## License
 
