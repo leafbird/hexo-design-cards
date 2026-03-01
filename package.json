@@ -16,10 +16,22 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leafbird/hexo-design-cards.git"
+    "url": "git+https://github.com/leafbird/hexo-design-cards.git"
   },
   "homepage": "https://github.com/leafbird/hexo-design-cards",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "bugs": {
+    "url": "https://github.com/leafbird/hexo-design-cards/issues"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
   }
 }
