@@ -1,5 +1,7 @@
 # hexo-design-cards
 
+[![CI](https://github.com/leafbird/hexo-design-cards/actions/workflows/ci.yml/badge.svg)](https://github.com/leafbird/hexo-design-cards/actions/workflows/ci.yml) [![GitHub release](https://img.shields.io/github/v/release/leafbird/hexo-design-cards)](https://github.com/leafbird/hexo-design-cards/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Beautiful design card tags for [Hexo](https://hexo.io) — replace verbose inline HTML with clean tag syntax.
 
 > Flow diagrams, header cards, accent cards, comparison cards, quotes, alerts, mini cards, and section banners with customizable colorways.
