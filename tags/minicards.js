@@ -2,7 +2,7 @@
 const { getColorway } = require('../lib/colorways');
 
 module.exports = function(hexo) {
-  const colors_cycle = ['c1', 'c2', 'c3'];
+  const colors_cycle = ['c1', 'c2', 'c3', 'c4'];
   let miniIndex = 0;
 
   hexo.extend.tag.register('minicards', function() {
