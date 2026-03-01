@@ -152,6 +152,8 @@ Simple horizontal flow diagram with arrow connectors.
 {% flow "Step A|description" "*Step B|description" "Step C|description" %}
 ```
 
+![Flow](screenshots/07-flow-1.png)
+
 - `*` prefix: highlighted step (bold border)
 - `|` inside quotes: separates title and description
 - Trailing `|` after all steps: caption text
@@ -160,7 +162,6 @@ Simple horizontal flow diagram with arrow connectors.
 {% flow "Request" "*Process" "Response" | Data flow overview %}
 ```
 
-![Flow](screenshots/07-flow-1.png)
 ![Flow](screenshots/07-flow-2.png)
 
 ## Font Size Parameter
@@ -182,8 +183,8 @@ Five built-in color palettes. Each has 5 colors (C1–C5) from darkest to lighte
 
 | Colorway | Vibe |
 |----------|------|
-| `deep-sea` (default) | Calm blue-grey |
-| `olive-garden` | Warm olive-gold |
+| `olive-garden` (default) | Warm olive-gold |
+| `deep-sea` | Calm blue-grey |
 | `fiery-ocean` | Bold red-blue contrast |
 | `rustic-earth` | Natural earth tones |
 | `sunny-beach` | Vivid orange-teal |
