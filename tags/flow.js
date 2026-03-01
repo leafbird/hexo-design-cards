@@ -6,30 +6,19 @@ const { getColorway } = require('../lib/colorways');
 module.exports = function(hexo) {
   hexo.extend.tag.register('flow', function(args) {
     const cw = getColorway(hexo, this);
-    const raw = args.join(' ');
-    // Split by | for caption (last segment after unquoted |)
+
+    // Hexo strips quotes and delivers each quoted group as one element in args[].
+    // Find caption: look for a bare "|" separator in args
     let caption = '';
-    let stepsPart = raw;
-    const pipeIdx = raw.lastIndexOf('|');
-    // Check if pipe is outside quotes
+    let stepArgs = args;
+    const pipeIdx = args.indexOf('|');
     if (pipeIdx > 0) {
-      const afterPipe = raw.slice(pipeIdx + 1).trim();
-      const beforePipe = raw.slice(0, pipeIdx).trim();
-      // If afterPipe doesn't contain quotes, it's a caption
-      if (!afterPipe.includes('"') && beforePipe.endsWith('"')) {
-        caption = afterPipe;
-        stepsPart = beforePipe;
-      }
+      caption = args.slice(pipeIdx + 1).join(' ');
+      stepArgs = args.slice(0, pipeIdx);
     }
 
-    // Parse steps: "text|desc" or "*text|desc"
-    const stepRegex = /"([^"]+)"/g;
-    const steps = [];
-    let m;
-    while ((m = stepRegex.exec(stepsPart)) !== null) {
-      steps.push(m[1]);
-    }
-
+    // Each arg is a step: "title|desc" or "*title|desc"
+    const steps = stepArgs;
     const colors = [cw.c3, cw.c2, cw.c1, cw.c4];
     let html = '<div class="dc-flow">';
     steps.forEach(function(step, i) {
