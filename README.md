@@ -169,6 +169,8 @@ Five built-in color palettes. Each has 5 colors (C1–C5) from darkest to lighte
 | `rustic-earth` | Natural earth tones |
 | `sunny-beach` | Vivid orange-teal |
 
+Color palettes from [Coolors.co](https://coolors.co).
+
 ### Global Setting
 
 In your Hexo `_config.yml`:
