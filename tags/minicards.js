@@ -19,8 +19,9 @@ module.exports = function(hexo) {
     const title = args.join(' ').replace(/^"|"$/g, '');
     const colorKey = colors_cycle[miniIndex % colors_cycle.length];
     miniIndex++;
+    const rendered = hexo.render.renderSync({ text: content, engine: 'markdown' });
     return '<div class="dc-mini" style="border-color:' + cw[colorKey] + ';background:' + cw.c5 + '">' +
       '<h5 style="color:' + cw.c2 + '">' + title + '</h5>' +
-      '<p>' + content.trim() + '</p></div>';
+      rendered + '</div>';
   }, { ends: true });
 };
