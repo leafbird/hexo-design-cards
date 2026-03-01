@@ -26,7 +26,7 @@ npm install hexo-design-cards
 
 ## Quick Start
 
-After installing, use tag syntax in your Hexo markdown files. No additional configuration needed — the plugin auto-injects CSS and uses the **Deep Sea** colorway by default.
+After installing, use tag syntax in your Hexo markdown files. No additional configuration needed — the plugin auto-injects CSS and uses the **Olive Garden** colorway by default.
 
 ## Tags
 
