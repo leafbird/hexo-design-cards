@@ -1,6 +1,6 @@
 # hexo-design-cards
 
-[![CI](https://github.com/leafbird/hexo-design-cards/actions/workflows/ci.yml/badge.svg)](https://github.com/leafbird/hexo-design-cards/actions/workflows/ci.yml) [![GitHub release](https://img.shields.io/github/v/release/leafbird/hexo-design-cards)](https://github.com/leafbird/hexo-design-cards/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/leafbird/hexo-design-cards/actions/workflows/ci.yml/badge.svg)](https://github.com/leafbird/hexo-design-cards/actions/workflows/ci.yml) [![npm version](https://img.shields.io/npm/v/hexo-design-cards)](https://www.npmjs.com/package/hexo-design-cards) [![npm downloads](https://img.shields.io/npm/dm/hexo-design-cards)](https://www.npmjs.com/package/hexo-design-cards) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Beautiful design card tags for [Hexo](https://hexo.io) — replace verbose inline HTML with clean tag syntax.
 
