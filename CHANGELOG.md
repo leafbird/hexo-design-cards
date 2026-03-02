@@ -10,3 +10,8 @@
 - CSS auto-injection via `after_render:html` filter
 - Responsive layout (single-column on mobile)
 - Markdown rendering inside card/accent/compare/alert/mini content
+
+## [0.1.2] - 2026-03-02
+
+### Fixed
+- `recommended` option in compare tag had thinner border (2px) than normal options (3px) — fixed to 4px
