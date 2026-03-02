@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.4] - 2026-03-02
+
+### Fixed
+- Compare: recommended option background color was identical to first normal option (both used c3). Reordered normal option color sequence from [c3,c2,c1,c4] to [c4,c2,c1,c3] so they are visually distinct.
+
 ## [0.1.3] - 2026-03-02
 
 ### Fixed
