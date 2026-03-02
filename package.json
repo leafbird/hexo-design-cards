@@ -1,5 +1,5 @@
 {
-  "name": "@leafbird/hexo-design-cards",
+  "name": "hexo-design-cards",
   "version": "0.1.0",
   "description": "Beautiful design card tags for Hexo — flow diagrams, header cards, accent cards, comparison cards, quotes, alerts, mini cards, and section banners with customizable colorways.",
   "main": "index.js",
@@ -19,9 +19,6 @@
     "url": "git+https://github.com/leafbird/hexo-design-cards.git"
   },
   "homepage": "https://github.com/leafbird/hexo-design-cards",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "directories": {
     "lib": "lib"
   },
