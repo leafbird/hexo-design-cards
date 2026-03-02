@@ -11,7 +11,7 @@ describe('hexo-design-cards tags', function() {
       const html = mock.callTag('banner', ['Getting Started']);
       assert(html.includes('dc-banner'));
       assert(html.includes('Getting Started'));
-      assert(html.includes('<h2>'));
+      assert(html.includes('<h2 id="getting-started">'));
     });
   });
 
