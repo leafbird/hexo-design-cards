@@ -21,7 +21,7 @@ module.exports = function(hexo) {
     const title = args[0] || '';
     const emoji = args[1] || '';
     const recommended = args.indexOf('recommended') > -1;
-    const colors = [cw.c3, cw.c2, cw.c1, cw.c4];
+    const colors = [cw.c4, cw.c2, cw.c1, cw.c3];
     const color = recommended ? cw.c3 : colors[optionIndex % colors.length];
     const bg = tint(color, 0.08);
     optionIndex++;
