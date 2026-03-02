@@ -8,18 +8,6 @@ Beautiful design card tags for [Hexo](https://hexo.io) — replace verbose inlin
 
 ## Install
 
-### From GitHub Packages
-
-```bash
-# Add to .npmrc in your Hexo project
-echo "@leafbird:registry=https://npm.pkg.github.com" >> .npmrc
-echo "//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN" >> .npmrc
-
-npm install @leafbird/hexo-design-cards
-```
-
-### From npm (coming soon)
-
 ```bash
 npm install hexo-design-cards
 ```
