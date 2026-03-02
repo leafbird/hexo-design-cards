@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.5] - 2026-03-02
+
+### Fixed
+- Banner: added `id` attribute to `<h2>` for TOC anchor navigation (NExT theme TOC click-to-scroll now works)
+
 ## [0.1.4] - 2026-03-02
 
 ### Fixed
