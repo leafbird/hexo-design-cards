@@ -1,6 +1,6 @@
 {
   "name": "hexo-design-cards",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Beautiful design card tags for Hexo — flow diagrams, header cards, accent cards, comparison cards, quotes, alerts, mini cards, and section banners with customizable colorways.",
   "main": "index.js",
   "keywords": [
